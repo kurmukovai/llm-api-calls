@@ -1,0 +1,109 @@
+{
+	"Dataset": {
+	  "(1, 'Data source diversity')": {
+		"score": 0,
+		"max_score": 1
+	  },
+	  "(2, 'Scanners diversity')": {
+		"score": 1,
+		"max_score": 1
+	  }
+	},
+	"Experimental details": {
+	  "(3, 'Use of independent test set')": {
+		"score": 0,
+		"max_score": 1
+	  },
+	  "(4, 'Model validation')": {
+		"score": 1,
+		"max_score": 1
+	  },
+	  "(5, 'Training process description')": {
+		"score": 1,
+		"max_score": 1
+	  }
+	},
+	"Reporting standards": {
+	  "(6, 'Annotator qualifications')": {
+		"score": 2,
+		"max_score": 2
+	  },
+	  "(7, 'Inter-rater variability')": {
+		"score": 1,
+		"max_score": 1
+	  },
+	  "(8, 'Segmentation metrics')": {
+		"score": 1,
+		"max_score": 2
+	  },
+	  "(9, 'Diameter measurement')": {
+		"score": 2,
+		"max_score": 2
+	  },
+	  "(10, 'Comparison with manual measurements')": {
+		"score": 1,
+		"max_score": 2
+	  }
+	},
+	"Clinical relevance": {
+	  "(11, 'Patient population diversity')": {
+		"score": 1,
+		"max_score": 2
+	  },
+	  "(12, 'Localization')": {
+		"score": 1,
+		"max_score": 2
+	  },
+	  "(13, 'Failure case discussion')": {
+		"score": 1,
+		"max_score": 1
+	  }
+	},
+	"Other study characteristics": {
+	  "Study design": "Retrospective",
+	  "Patients characteristics": "patients with and without TAA",
+	  "Dataset Size": "587 studies",
+	  "Model Architecture or Device name": "U-net (DeepAAA, DeepVox)",
+	  "Segmentation quality Dice": {
+		"model": 0.88,
+		"expert_agreement": {
+		  "range": [0.80, 0.88],
+		  "average": 0.84
+		}
+	  },
+	  "Segmentation quality Hausdorff": "not reported",
+	  "Diameters measurements quality": {
+		"model": {
+		  "TAA_patients": {
+			"mean_absolute_error": 2.04,
+			"standard_deviation": 3.6
+		  },
+		  "CTA": {
+			"mean_absolute_error": 0.92,
+			"standard_deviation": 0.8
+		  },
+		  "CT": {
+			"mean_absolute_error": 1.06,
+			"standard_deviation": 0.56
+		  },
+		  "ldCT": {
+			"mean_absolute_error": 0.96,
+			"standard_deviation": 1.29
+		  }
+		},
+		"expert_variability": {
+		  "ldCT_healthy_subjects": {
+			"mean": 3.30,
+			"standard_deviation": 0.74
+		  },
+		  "TAA_patients": {
+			"mean": 4.95,
+			"standard_deviation": 1.2
+		  }
+		}
+	  },
+	  "CT type": ["ldCT", "CT", "CTA"],
+	  "Summary": "Authors train a DL segmentation model for aorta segmentation on CT, ldCT and CTA images. To assess model performance authors compare model performance segmentation-wise and with respect to diameters measurements with human experts. Model demonstrates the same level of segmentation quality as the assessed level of human experts' variability. The aorta diameters estimated by the proposed model result in more accurate than human experts' variability (of diameters measurements).",
+	  "Key findings": "DL segmentation of TAA on CT, ldCT and CTA, demonstrates human-level segmentation and provides more accurate measurements of aorta diameters than the level of experts' agreement"
+	}
+  }

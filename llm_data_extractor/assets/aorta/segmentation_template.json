@@ -1,0 +1,80 @@
+{
+	"Dataset": {
+	  "(1, 'Data source diversity')": {
+		"Single center or not reported": 0,
+		"Multiple centers": 1
+	  },
+	  "(2, 'Scanners diversity')": {
+		"Single scanner or not reported": 0,
+		"Multiple scanners": 1
+	  }
+	},
+	"Experimental details": {
+	  "(3, 'Use of independent test set')": {
+		"No independent test set": 0,
+		"Independent test set": 1
+	  },
+	  "(4, 'Model validation')": {
+		"No validation set or incorrect validation scheme, e.g. image-wise instead of patient-wise": 0,
+		"Separate validation set": 1
+	  },
+	  "(5, 'Training process description')": {
+		"Minimal or no description": 0,
+		"Detailed description": 1
+	  }
+	},
+	"Reporting standards": {
+	  "(6, 'Annotator qualifications')": {
+		"Not reported or non-radiologist": 0,
+		"Single radiologist": 1,
+		"Multiple radiologists": 2
+	  },
+	  "(7, 'Inter-rater variability')": {
+		"Not reported": 0,
+		"Reported": 1
+	  },
+	  "(8, 'Segmentation metrics')": {
+		"Not reported": 0,
+		"Mean values reported only": 1,
+		"Metrics reported with confidence intervals and/or uncertainty measures e.g., std, min-max": 2
+	  },
+	  "(9, 'Diameter measurement')": {
+		"Not reported": 0,
+		"Mean values reported only": 1,
+		"Metrics reported with error values, e.g. std, min-max": 2
+	  },
+	  "(10, 'Comparison with manual measurements')": {
+		"No comparison": 0,
+		"basic comparison": 1,
+		"Detailed comparison with statistical analysis, e.g. Bland-Altman plots, statistical testing": 2
+	  }
+	},
+	"Clinical relevance": {
+	  "(11, 'Patient population diversity')": {
+		"Not mentioned": 0,
+		"Indirectly mentioned, e.g. \"patient admitted between 2002 and 2016\"": 1,
+		"Comprehensive diversity, e.g age, sex": 2
+	  },
+	  "(12, 'Localization')": {
+		"A specific segment of the aorta":0,
+		"Whole aorta without subdividing into segments": 1,
+		"Clearly defined, aorta segments covering whole aorta": 2
+	  },
+	  "(13, 'Failure case discussion')": {
+		"No discussion or brief mention of limitations": 0,
+		"Detailed discussion of failure cases": 1
+	  }
+	},
+	"Other study characteristics": {
+	  "Study design": ["Retrospective", "Prospective"],
+	  "Patients characteristics": "e.g. \"patients with diagnosed AAA\"; \"patients with and without TAA\"; \"healthy subjects\"",
+	  "Dataset Size": "Extract total size, including trainining, validation and test samples",
+	  "Model Architecture or Device name": "Extract NN architecture name, include SaMD Device name/version if available",
+	  "Segmentation quality Dice": "single number or multiple numbers if appropriate, include expert variability if available in the text",
+	  "Segmentation quality Hausdorff": "single number or multiple numbers if appropriate, include expert variability if available in the text",
+	  "Diameters measurements quality": "single number or multiple numbers if appropriate, include expert variability if available in the text",
+	  "CT type": "e.g. abdominal CT; low-dose CT; CT angiography; ECG-gated CT",
+	  "Summary": "<250 words",
+	  "Key findings": "<30 words"
+	}
+  }
