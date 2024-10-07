@@ -1,0 +1,93 @@
+{
+	"Study Design and Population": {
+	  "Study design": {
+		"justification":"The population of this descriptive, cross-sectional study was recruited from a prospectively collected cohort",
+		"max_score": 1,
+		"score": 1
+	  },
+	  "Sample size": {
+		"justification": "Abdominal helical CT angiograms from 77 healthy potential renal donors",
+		"max_score": 2,
+		"score": 0
+	  },
+	  "Population diversity": {
+		"justification": "Table I. Demographic characteristics of 77 healthy potential renal donors",
+		"max_score": 2,
+		"score": 1
+	  }
+	},
+	"Imaging and Measurement Techniques": {
+	  "CT scanner diversity": {
+		"justification": "All helical CT image data were obtained with a Somatom Plus-S, a Somatom Plus-4 (Siemens Medical Systems, Iselin, NJ), or a HiSpeed Advantage",
+		"max_score": 1,
+		"score": 1
+	  },
+	  "CT protocol description": {
+		"justification": "standardized acquisition protocol optimized for imaging of the abdominal vasculature in living renal donors.4 The contrast medium enhanced helical CT acquisitions were obtained from 30 to 45 gantry rotations",
+		"max_score": 1,
+		"score":1
+	  },
+	  "Measurement technique": {
+		"justification": "Cross-sectional area measurements were obtained at 1-mm intervals along the central axis paths.",
+		"max_score": 2,
+		"score": 1
+	  },
+	  "Aortic segments analyzed": {
+		"justification": "The abdominal aorta was divided into six anatomic segments relative to branch vessel origins",
+		"max_score": 2,
+		"score": 1
+	  }
+	},
+	"Data Reporting and Analysis": {
+	  "Reporting of aortic dimensions": {
+		"justification": "Table II. Segmental aortic diameters in 33 men and 44 women Men Mean SD",
+		"max_score": 2,
+		"score": 1
+	  },
+	  "Stratification of results": {
+		"justification": "Table II. Segmental aortic diameters in 33 men and 44 women",
+		"max_score": 2,
+		"score": 1
+	  },
+	"Reproducibility and Validation": {
+	  "Inter-observer variability": {
+		"justification": "N/A",
+		"max_score": 2,
+		"score": 0
+	  },
+	  "Intra-observer variability": {
+		"justification": "N/A",
+		"max_score": 2,
+		"score": 0
+	  },
+	  "Comparison with other imaging modalities or autopsy findings": {
+		"justification": "Our calculated diameter measurements seem small when compared with diameter measurements obtained by means of ultrasound scanning and computed tomography in the literature",
+		"max_score": 2,
+		"score": 1
+	  }
+	},
+	"Clinical Relevance and Applicability": {
+	  "Discussion of normal variations": {
+		"justification": "The abdominal aorta expands with age, and it does so at a faster rate in the proximal portions than in the distal ones, which consequently leads to a gradual increase of aortic taper between the ages of 19 and 67 years.",
+		"max_score": 2,
+		"score": 2
+	  },
+	  "Applicability to different populations": {
+		"justification": "N/A",
+		"max_score": 2,
+		"score": 0
+	  }
+	},
+	"Extract information": {
+	  "Country/region of study": "Stanford, California",
+	  "Age range of participants": "19-67",
+	  "Gender distribution": "Men (n=33), Women (n=44)",
+	  "Ethnicity distribution": "N/A",
+	  "Sample size": "77",
+	  "CT type used": "CT angiograms",
+	  "Definition of aortic segments used in the study": "A, portion superior to the celiac trunk; B, segment between the celiac trunk and the superior mesenteric artery; C, segment between the superior mesenteric artery and the first (more superiorly originating) renal artery; D, inter-renal segment between the origins of the more superior and inferior renal arteries; E1, proximal infrarenal segment (relative to the inferior mesenteric artery); E2, distal infrarenal segment; IL denotes iliac arteries.",
+	  "Key findings": "The abdominal aorta expands with age, and it does so at a faster rate in the proximal portions than in the distal ones.",
+	  "Limitations acknowledged by authors": "Small study population with underrepresented older population."
+	}
+  }
+}

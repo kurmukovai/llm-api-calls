@@ -1,0 +1,90 @@
+{
+	"Study Design and Population": {
+	  "Study design": {
+		"Retrospective": 0,
+		"Prospective": 1
+	  },
+	  "Sample size": {
+		"<100": 0,
+		"100-500": 1,
+		">500": 2
+	  },
+	  "Population diversity": {
+		"Single demographic group": 0,
+		"Multiple demographic groups mentioned": 1,
+		"Comprehensive diversity (age, sex, ethnicity) reported": 2
+	  }
+	},
+	"Imaging and Measurement Techniques": {
+	  "CT scanner diversity": {
+		"Single scanner or not reported": 0,
+		"Multiple scanners": 1
+	  },
+	  "CT protocol description": {
+		"Minimal or no description": 0,
+		"Detailed description including slice thickness, contrast use, etc.": 1
+	  },
+	  "Measurement technique": {
+		"Not standardized or not reported": 0,
+		"Standardized technique described": 1,
+		"Standardized technique with reference to guidelines": 2
+	  },
+	  "Aortic segments analyzed": {
+		"Single segment or unclear": 0,
+		"Multiple segments": 1,
+		"Comprehensive analysis of thoracic and abdominal aorta": 2
+	  }
+	},
+	"Data Reporting and Analysis": {
+	  "Reporting of aortic dimensions": {
+		"Only mean values": 0,
+		"Mean values with standard deviation": 1,
+		"Comprehensive statistics including percentiles": 2
+	  },
+	  "Stratification of results": {
+		"No stratification": 0,
+		"Stratified by age or sex": 1,
+		"Stratified by multiple factors (age, sex, body size)": 2
+	  },
+	"Reproducibility and Validation": {
+	  "Inter-observer variability": {
+		"Not reported": 0,
+		"Reported without statistical analysis": 1,
+		"Reported with statistical analysis": 2
+	  },
+	  "Intra-observer variability": {
+		"Not reported": 0,
+		"Reported without statistical analysis": 1,
+		"Reported with statistical analysis": 2
+	  },
+	  "Comparison with other imaging modalities or autopsy findings": {
+		"No comparison": 0,
+		"Comparison mentioned": 1,
+		"Detailed comparison with statistical analysis": 2
+	  }
+	},
+	"Clinical Relevance and Applicability": {
+	  "Discussion of normal variations": {
+		"Not discussed": 0,
+		"Briefly mentioned": 1,
+		"Comprehensively discussed": 2
+	  },
+	  "Applicability to different populations": {
+		"Not discussed": 0,
+		"Briefly mentioned": 1,
+		"Thoroughly addressed": 2
+	  }
+	},
+	"Extract information": {
+	  "Country/region of study": "country or region>",
+	  "Age range of participants": "age range",
+	  "Gender distribution": "numbers if present in text",
+	  "Ethnicity distribution": "numbers if present in text",
+	  "Sample size": "total number",
+	  "CT type used": "CT types divided by comma",
+	  "Definition of aortic segments used in the study": "list of segments divided by comma",
+	  "Key findings": "under 50 words",
+	  "Limitations acknowledged by authors": "under 50 words"
+	}
+  }
+}
