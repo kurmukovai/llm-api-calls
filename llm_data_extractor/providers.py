@@ -1,6 +1,6 @@
 from typing import Any
 from anthropic import Anthropic
-from api_calls import LLMDataExtractor
+from .api_calls import LLMDataExtractor
 
 
 class Antropic(LLMDataExtractor):
