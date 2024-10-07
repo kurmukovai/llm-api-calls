@@ -14,7 +14,7 @@ class Antropic(LLMDataExtractor):
     self.max_tokens = max_tokens
     self.client_kwargs = client_kwargs
 
-  def call_api(self, prompt: str) -> str:
+  def _call_api(self, prompt: str) -> str:
      return self.client.messages.create(
         model=self.model_name,
         max_tokens=self.max_tokens,
@@ -23,6 +23,9 @@ class Antropic(LLMDataExtractor):
         }],
         **self.client_kwargs
     )
+  
+  def call_api(self, prompt: str) -> str:
+    return self._call_api(prompt).content[0].text
 
 
 class OpenAI(LLMDataExtractor):
