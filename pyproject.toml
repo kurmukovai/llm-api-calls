@@ -18,6 +18,9 @@ classifiers = [
 ]
 dependencies = [
     "anthropic>=0.3.0",
+    "typer",
+    "python-dotenv",
+    "pypdf",
 ]
 
 [project.urls]

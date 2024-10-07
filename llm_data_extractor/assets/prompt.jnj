@@ -1,0 +1,27 @@
+Task: Assess the attached scientific study. This assessment is crucial for evaluating the quality and reliability of research in this field.
+
+Instructions:
+1. Carefully read the entire study.
+2. Assess each criterion in the framework below.
+3. Provide a score for each criterion based on the given options.
+4. If a criterion is unclear or information is not available, use "N/A".
+5. For "Other study characteristics", extract the requested information as accurately as possible.
+6. Ensure your output follows the structured JSON format provided.
+
+Assessment Framework:
+<FRAMEWORK>
+{template}
+</FRAMEWORK>
+
+Example of a completed assessment (without corresponding paper):
+<EXAMPLE>
+{example}
+</EXAMPLE>
+
+Study to assess:
+<STUDY>
+{text}
+</STUDY>
+
+Please output your assessment in the structured JSON format according to EXAMPLE. 
+Note: If any information is not available or unclear, use "N/A" as the value and briefly explain why in the "justification" field.
