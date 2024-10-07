@@ -1,60 +1,60 @@
 {
 	"Dataset": {
-	  "(1, 'Data source diversity')": {
+	  "Data source diversity": {
 		"score": 0,
 		"max_score": 1
 	  },
-	  "(2, 'Scanners diversity')": {
+	  "Scanners diversity": {
 		"score": 1,
 		"max_score": 1
 	  }
 	},
 	"Experimental details": {
-	  "(3, 'Use of independent test set')": {
+	  "Use of independent test set": {
 		"score": 0,
 		"max_score": 1
 	  },
-	  "(4, 'Model validation')": {
+	  "Model validation": {
 		"score": 1,
 		"max_score": 1
 	  },
-	  "(5, 'Training process description')": {
+	  "Training process description": {
 		"score": 1,
 		"max_score": 1
 	  }
 	},
 	"Reporting standards": {
-	  "(6, 'Annotator qualifications')": {
+	  "Annotator qualifications": {
 		"score": 2,
 		"max_score": 2
 	  },
-	  "(7, 'Inter-rater variability')": {
+	  "Inter-rater variability": {
 		"score": 1,
 		"max_score": 1
 	  },
-	  "(8, 'Segmentation metrics')": {
+	  "Segmentation metrics": {
 		"score": 1,
 		"max_score": 2
 	  },
-	  "(9, 'Diameter measurement')": {
+	  "Diameter measurement": {
 		"score": 2,
 		"max_score": 2
 	  },
-	  "(10, 'Comparison with manual measurements')": {
+	  "Comparison with manual measurements": {
 		"score": 1,
 		"max_score": 2
 	  }
 	},
 	"Clinical relevance": {
-	  "(11, 'Patient population diversity')": {
+	  "Patient population diversity": {
 		"score": 1,
 		"max_score": 2
 	  },
-	  "(12, 'Localization')": {
+	  "Localization": {
 		"score": 1,
 		"max_score": 2
 	  },
-	  "(13, 'Failure case discussion')": {
+	  "Failure case discussion": {
 		"score": 1,
 		"max_score": 1
 	  }

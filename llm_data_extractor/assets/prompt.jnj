@@ -10,17 +10,17 @@ Instructions:
 
 Assessment Framework:
 <FRAMEWORK>
-{template}
+{{template}}
 </FRAMEWORK>
 
 Example of a completed assessment (without corresponding paper):
 <EXAMPLE>
-{example}
+{{example}}
 </EXAMPLE>
 
 Study to assess:
 <STUDY>
-{text}
+{{text}}
 </STUDY>
 
 Please output your assessment in the structured JSON format according to EXAMPLE. 
