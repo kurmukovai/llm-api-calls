@@ -45,7 +45,8 @@
 		"No stratification": 0,
 		"Stratified by age or sex": 1,
 		"Stratified by multiple factors (age, sex, body size)": 2
-	  },
+	  }
+	},
 	"Reproducibility and Validation": {
 	  "Inter-observer variability": {
 		"Not reported": 0,
@@ -86,5 +87,4 @@
 	  "Key findings": "under 50 words",
 	  "Limitations acknowledged by authors": "under 50 words"
 	}
-  }
 }

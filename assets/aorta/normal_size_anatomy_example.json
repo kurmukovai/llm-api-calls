@@ -49,6 +49,7 @@
 		"max_score": 2,
 		"score": 1
 	  },
+	},
 	"Reproducibility and Validation": {
 	  "Inter-observer variability": {
 		"justification": "N/A",
@@ -89,5 +90,4 @@
 	  "Key findings": "The abdominal aorta expands with age, and it does so at a faster rate in the proximal portions than in the distal ones.",
 	  "Limitations acknowledged by authors": "Small study population with underrepresented older population."
 	}
-  }
 }
