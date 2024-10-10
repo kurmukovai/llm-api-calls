@@ -4,7 +4,7 @@
 		"Retrospective": 0,
 		"Prospective": 1
 	  },
-	  "Sample size": {
+	  "Sample size score": {
 		"<100": 0,
 		"100-500": 1,
 		">500": 2
