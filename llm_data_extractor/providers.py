@@ -38,11 +38,14 @@ class Gemini(LLMDataExtractor):
     super().__init__(model_name=model_name)
     genai.configure(api_key=api_key)
     self.client = genai.GenerativeModel(model_name)
-    self.max_tokens = max_tokens
+    self.max_tokens = max_tokens # keep it for consistency
+    self.generation_config = genai.types.GenerationConfig(
+      max_output_tokens=max_tokens
+    )
     self.client_kwargs = client_kwargs
 
   def _call_api(self, prompt: str) -> str:
-     return self.client.generate_content(prompt)
+     return self.client.generate_content(prompt, generation_config=self.generation_config)
   
   def call_api(self, prompt: str) -> str:
     return self._call_api(prompt).text
