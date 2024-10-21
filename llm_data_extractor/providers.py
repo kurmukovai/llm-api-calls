@@ -41,8 +41,11 @@ class Gemini(LLMDataExtractor):
     self.client = genai.GenerativeModel(model_name)
     self.max_tokens = max_tokens # keep it for consistency
     self.generation_config = genai.types.GenerationConfig(
-      max_output_tokens=max_tokens
+      max_output_tokens=max_tokens,
+      # response_mime_type="application/json" # set to return json, see 
     )
+    # TODO check out Gemini json schema, see https://ai.google.dev/gemini-api/docs/structured-output?lang=python
+    # it allows to specify **exact** json output schema by predefining a typed-like class
     self.client_kwargs = client_kwargs
 
   def _call_api(self, prompt: str) -> str:
