@@ -31,6 +31,10 @@ class LLMDataExtractor(ABC):
             str: The response from the LLM.
         """
         ...
+    
+    @abstractmethod
+    def count_input_tokens(self, prompt: str) -> int:
+        ...
 
     @staticmethod
     def decode_dict(text: str) -> dict[str, Any]:

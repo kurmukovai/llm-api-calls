@@ -5,6 +5,7 @@ from .api_calls import LLMDataExtractor
 
 
 class Antropic(LLMDataExtractor):
+  # TODO add count_input_tokens implementation
   def __init__(self,
                api_key: str,
                model_name: str="claude-3-5-sonnet-20240620",
@@ -45,10 +46,14 @@ class Gemini(LLMDataExtractor):
     self.client_kwargs = client_kwargs
 
   def _call_api(self, prompt: str) -> str:
+     # TODO store raw result in some field, return text in self.call_api 
      return self.client.generate_content(prompt, generation_config=self.generation_config)
   
   def call_api(self, prompt: str) -> str:
     return self._call_api(prompt).text
+  
+  def count_input_tokens(self, prompt: str) -> int:
+    return self.client.count_tokens(prompt).total_tokens
   
   
 class OpenAI(LLMDataExtractor):
